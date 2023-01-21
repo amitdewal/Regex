@@ -7,7 +7,7 @@ public class Test1 {
 
 	public static void main(String[] args) {
 
-		Pattern c = Pattern.compile("[^abc]");//acept a or b or c
+		Pattern c = Pattern.compile("[^abc]");//except a or b or c
 		Matcher m = c.matcher("ab c$123#iJk^45 6*pQr @ wXYz");
 		int count = 0;
 
